@@ -6,7 +6,9 @@ This is a Docker image of the GIMPS Prime95 software, used for finding prime num
 
 To use this image, simply run the following command:
 
-`docker run -d -v [your local path]:/opt/prime95 --env PRIME_USER=[your GIMPS username]--env WORK_PREFERENCE=[ID of work preference]--env HOSTNAME=[your host name] wolasss/prime95`
+```
+docker run -d -v [your local path]:/opt/prime95 --env PRIME_USER=[your GIMPS username]--env WORK_PREFERENCE=[ID of work preference]--env HOSTNAME=[your host name] wolasss/prime95
+```
 
 List of available work preference IDs can be found [here](https://www.mersenne.org/worktypes/)
 
@@ -20,7 +22,11 @@ docker pull wolasss/prime95
 
 This will pull the latest version of the image from the Docker Hub. 
 
-You can also build your own image with `docker build .`
+You can also build your own image with 
+
+```
+docker build .
+```
 
 ## Contribution 
 
