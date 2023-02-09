@@ -15,7 +15,7 @@ List of available work preference IDs can be found [here](https://www.mersenne.o
 This image is should be regularly updated with the latest version of Prime95. To update the image, simply run the following command:
 
 ```
-docker pull prime95
+docker pull wolasss/prime95
 ```
 
 This will pull the latest version of the image from the Docker Hub. 
